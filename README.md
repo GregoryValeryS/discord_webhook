@@ -7,10 +7,16 @@ My discord webhooks
 
 Additional:
 1. Install openpyxl
+```python
   pip install openpyxl
-  
+```
+
 2. Install xlrd
-  pip install xlrd
+```python
+pip install xlrd
+```
   
 2. Upgrade google translate
+```python
   pip install googletrans==3.1.0a0
+```
