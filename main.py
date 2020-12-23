@@ -9,7 +9,7 @@ from time import sleep
 from pandas import DataFrame, read_excel
 
 # указываем пукть к файлу, с последней новостью и к хуку (взять можно у владельца сервера https://discord.gg/AkyBxDv)
-# last_news_file_path = 'C:/GitHub/discord_webhook/last_news.xlsx'
+# last_news_file_path = 'C:/Google Drive/program/matirials_discord_webhook/last_news.xlsx'
 # hook_file_path = 'C:/Google Drive/program/matirials_discord_webhook/warmane_news_hook.txt'
 
 last_news_file_path = 'last_news.xlsx'
@@ -104,8 +104,9 @@ def main(last_news_file_path: str, hook_file_path: str):
         print('Нечего грузить!\n')
 
 
-# if __name__ == '__main__':
-#     main(last_news_file_path)
+if __name__ == '__main__':
+    main(last_news_file_path, hook_file_path)
+
 
 '''discord_pic = File("")
 hook.send('asd', file=discord_pic)'''
